@@ -1,0 +1,22 @@
+{
+    "name": "ssskit/aliyun-domain-record",
+    "description": "集成阿里云域名管理api与域名解析管理api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kit",
+            "email": "ssskit@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "alibabacloud/sdk": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunIntegrate\\": "src/"
+        }
+    }
+}
